@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    loadlab (0.1.0)
+    loadlab (0.1.2)
       httparty (~> 0.16.2)
 
 GEM
