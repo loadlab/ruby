@@ -1,5 +1,7 @@
 # LoadLab
 
+[![CircleCI](https://circleci.com/gh/loadlab/ruby.svg?style=svg)](https://circleci.com/gh/loadlab/ruby)
+
 Welcome to LoadLab for Ruby! 
 
 
@@ -23,7 +25,15 @@ Or install it yourself as:
 
 ```ruby
 
+client = LoadLab::Client.new(ENV['LOADLAB_API_TOKEN'])
 
+# Get Jobs
+client.jobs.get
+# Get Plans
+client.plans.get
+
+# Get Sites
+client.sites.get
 
 ```
 
