@@ -3,7 +3,11 @@ RSpec.describe LoadLab do
     expect(LoadLab::VERSION).not_to be nil
   end
 
-  it "does something useful" do
-    expect(false).to eq(true)
+  it "I can instantiate it" do
+    puts LoadLab.constants
+    client = LoadLab::Client.new('xxxx')
+    sites = client.sites.get
+    puts sites
+    expect(true).to eq(true)
   end
 end
