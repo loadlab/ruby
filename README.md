@@ -29,6 +29,7 @@ client = LoadLab::Client.new(ENV['LOADLAB_API_TOKEN'])
 
 # Get Jobs
 client.jobs.get
+
 # Get Plans
 client.plans.get
 
