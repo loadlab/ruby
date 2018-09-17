@@ -1,4 +1,4 @@
-# LoadLab
+# LoadLab Ruby
 
 [![CircleCI](https://circleci.com/gh/loadlab/ruby.svg?style=svg)](https://circleci.com/gh/loadlab/ruby)
 
