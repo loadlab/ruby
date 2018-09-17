@@ -25,7 +25,7 @@ Or install it yourself as:
 
 ```ruby
 
-client = LoadLab::Client.new(ENV['LOADLAB_API_TOKEN'])
+client = LoadLab::Client.new('<LOADLAB_API_TOKEN>')
 
 # Get Jobs
 client.jobs.get
